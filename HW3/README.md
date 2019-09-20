@@ -1,4 +1,5 @@
 # 牧师与恶魔
+演示视频：https://v.youku.com/v_show/id_XNDM2OTIwNDEzMg==.html?spm=a2h3j.8428770.3416059.1
 阅读以下游戏脚本
 
 Priests and Devils

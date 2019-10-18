@@ -9,3 +9,5 @@ HW3：牧师与恶魔视频地址：https://v.youku.com/v_show/id_XNDM2OTIwNDEzM
 HW4：牧师与魔鬼进阶版视频地址：https://v.youku.com/v_show/id_XNDM4ODEwOTYwMA==.html
 
 HW5：打飞碟游戏视频地址：https://v.youku.com/v_show/id_XNDM5MTMzNjAzMg==.html?spm=a2h3j.8428770.3416059.1
+
+HW6: 打飞碟改进版视频地址：https://v.youku.com/v_show/id_XNDQwMjkxMzA5Mg==.html?spm=a2h3j.8428770.3416059.1

@@ -6,6 +6,7 @@
 
 - 2.使它同时支持物理运动与运动学（变换）运动
 
+视频地址：https://v.youku.com/v_show/id_XNDQwMjkxMzA5Mg==.html?spm=a2h3j.8428770.3416059.1
 
 1.按照题目要求首先添加接口类IActionManager，用来链接场记和运动管理器，使飞碟运动和判断所以飞碟都已经被回收。
 

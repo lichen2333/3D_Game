@@ -9,7 +9,7 @@
 
 1.按照题目要求首先添加接口类IActionManager，用来链接场记和运动管理器，使飞碟运动和判断所以飞碟都已经被回收。
 
->  
+```
 namespace Interfaces
     {
         public interface ISceneController
@@ -39,11 +39,11 @@ namespace Interfaces
             bool IsAllFinished(); 
         }
     }
-    
+```
     
 2.之后需要重写用户层的运动管理CCActionManager，主要就是添加继承的接口和重写继承的接口的函数。
 
->     
+```    
 public class CCActionManager : SSActionManager, SSActionCallback, IActionManager
     {
         int count = 0;
@@ -70,10 +70,11 @@ public class CCActionManager : SSActionManager, SSActionCallback, IActionManager
             else return false;
         }
     }
+```
     
 3.然后需要写出基于Unity物理引擎的运动控制类，我觉得是使用刚体属性以及施加力来实现。首先需要写一个用户层的物理运动管理CCPhysisActionManager，其实基本和CCActionManager是一样的，只要区别是底层使用的是CCPhysisAction来实例化运动对象。
 
->     
+```
 public class CCPhysisActionManager : SSActionManager, SSActionCallback, IActionManager
     {
         int count = 0;
@@ -100,10 +101,10 @@ public class CCPhysisActionManager : SSActionManager, SSActionCallback, IActionM
             else return false;
         }
     }
-    
+```
 4.最后就是添加具体的物理运动管理类CCPhysisAction，同样是继承自SSAction，在Start初始化的时候添加刚体属性，并且添加X轴上持续的速度ForceMode.VelocityChange，由于重力加速度太大导致画面上飞碟速度太大，只能使用流氓方法添加持续向上的一半的重力使重力加速度减小为g/2。然后当游戏对象到达地面时，由于飞碟工厂的存在，一定要销毁对象的刚体属性否则速度会累积。
 
->     
+```
 public class CCPhysisAction : SSAction
     {
         public float speedx;
@@ -140,3 +141,4 @@ public class CCPhysisAction : SSAction
             }
         }
     }
+```

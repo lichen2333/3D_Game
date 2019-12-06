@@ -17,3 +17,5 @@ HW7：巡逻兵视频地址:https://v.youku.com/v_show/id_XNDQxMjM0NjIyMA==.html
 HW8：粒子效果，光环视频地址：https://v.youku.com/v_show/id_XNDQyNzkzNTMzMg==.html?spm=a2h3j.8428770.3416059.1
 
 HW9：UI设计，实现背包视频地址：https://v.youku.com/v_show/id_XNDQ0MTM1Mjk5Mg==.html?spm=a2h3j.8428770.3416059.1
+
+HW10：智能牧师与魔鬼过河游戏，视频地址：https://v.youku.com/v_show/id_XNDQ1Nzg0Njc1Mg==.html?spm=a2hzp.8244740.0.0
